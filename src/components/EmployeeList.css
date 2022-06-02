@@ -1,0 +1,62 @@
+.EmployeeList-Container {
+	margin-bottom: 1rem;
+}
+
+.EmployeeList-Card {
+	padding: 0 1rem;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	margin: 1rem 0;
+}
+
+.EmployeeList-Card-Row1 {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.EmployeeList-Card-Row2 {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.EmployeeList-Card-Button {
+	display: flex;
+	align-items: flex-end;
+	justify-content: right;
+	flex-grow: 1;
+}
+
+.EmployeeList-Card-Button button {
+	margin: 0;
+	margin-top: 1rem;
+}
+
+.EmployeeList-Card-Name,
+.EmployeeList-Card-Mobile {
+	margin-top: 1rem;
+	margin-right: 1.5rem;
+}
+
+.EmployeeList-Card-Email {
+	margin-top: 1rem;
+}
+
+.EmployeeList-Card-Title {
+	color: #afafaf;
+	margin: 0.2rem 0;
+}
+
+.EmployeeList-Card-Value {
+	color: #49319a;
+	margin: 0.2rem 0;
+	overflow-wrap: break-word;
+}
+
+.EmployeeList-Warning {
+	background-color: white;
+	color: #49319a;
+	padding: 1rem;
+	text-align: center;
+}
